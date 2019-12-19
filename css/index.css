@@ -1049,22 +1049,6 @@ footer .content-wrap:after {
 #connect a.contact span:after {
   background: #2ECEF1;
 }
-@-webkit-keyframes $title {
-  from {
-    box-shadow: 0 0 0 #2ECEF1;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#2ECEF1, 0);
-  }
-}
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 #2ECEF1;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#2ECEF1, 0);
-  }
-}
 #connect a.codepen:before {
   background: #ae63e4;
 }
@@ -1075,14 +1059,7 @@ footer .content-wrap:after {
 #connect a.codepen span:after {
   background: #ae63e4;
 }
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 #ae63e4;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#ae63e4, 0);
-  }
-}
+
 #connect a.twitter:before {
   background: white;
 }
@@ -1093,14 +1070,7 @@ footer .content-wrap:after {
 #connect a.twitter span:after {
   background: white;
 }
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 white;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(white, 0);
-  }
-}
+
 #connect a.github:before {
   background: #76c85a;
 }
@@ -1111,14 +1081,7 @@ footer .content-wrap:after {
 #connect a.github span:after {
   background: #76c85a;
 }
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 #76c85a;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#76c85a, 0);
-  }
-}
+
 #connect a.linkedin:before {
   background: #1b86bd;
 }
@@ -1129,14 +1092,7 @@ footer .content-wrap:after {
 #connect a.linkedin span:after {
   background: #1b86bd;
 }
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 #1b86bd;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#1b86bd, 0);
-  }
-}
+
 #connect a.behance:before {
   background: #237ffc;
 }
@@ -1147,14 +1103,7 @@ footer .content-wrap:after {
 #connect a.behance span:after {
   background: #237ffc;
 }
-@keyframes $title {
-  from {
-    box-shadow: 0 0 0 #237ffc;
-  }
-  to {
-    box-shadow: 0 0 0 10px fade(#237ffc, 0);
-  }
-}
+
 .footer-bottom-buttons {
   text-align: center;
   overflow: hidden;
